@@ -1,0 +1,3 @@
+game tips
+-black screen animation to change levels
+-level where falling is the solution

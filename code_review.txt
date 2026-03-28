@@ -1,0 +1,19 @@
+Reviewer Full Name: Alberto Alonzo
+Dev Full Name: Abel Victorino
+
+Summary of the developer's description of the functionality
+
+A 2D puzzle platformer where the player moves left and right(and jump), as well as shoot targets to change the environment (like spawn a bridge), to complete the level.
+
+
+
+
+Summary of the functionality found
+Player character is able to move left and right, as well as shoot projectile to a target and open up a bridge to complete the level. Various environmental changes will be added to increase complexity of the level. 
+
+
+
+
+List of files reviewed (put your comments in the files!)
+PlayerThrowLob.cs
+SimplePlayerMove2D.cs

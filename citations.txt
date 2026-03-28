@@ -1,0 +1,7 @@
+I used free assets for my character sprite from the internet. Specifically from the freebies section on craftpix.net
+This is the link: https://craftpix.net/freebies/free-3-cyberpunk-characters-pixel-art/
+
+For all other art, I used paint that comes with my computer and ChatGPT to help touch them up where needed.
+
+For coding, I used the input system from one of our previous projects. Everything else I either fully wrote,
+wrote and had it touched up by the AI, or had it write some of the more tedious, but simple code.

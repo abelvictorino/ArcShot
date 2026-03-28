@@ -1,0 +1,12 @@
+Playtest
+
+Developer Name: Abel Victorino
+
+Summary: All testers liked the game and the simple projectile target mechanic. I got a lot of tips on adding different types of puzzles with keeping the simple mechanic at the core of each level. Got good comments about how using prefabs and one simple mechanic allow for facilitation of making new levels since it's just a matter of making different puzzles with different positions of platforms and targets. Even got suggested making stats, like jump force, vary by level to add complexity.
+
+Testers:
+Alberto Alonzo
+Nathan Floyd
+Kaleb Sims
+Gerardo Quintana
+Jose Martinez

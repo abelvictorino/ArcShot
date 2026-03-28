@@ -1,0 +1,28 @@
+1. Reach the exit on the far side of each level by navigating gaps and hazards. The player can reposition, jump, and lob a fixed-angle projectile that, on hitting special targets, spawns solid platforms (or other environmental aids). Progress = smart positioning + timing a lob to trigger level changes that create a safe path across.
+
+2. Gaps & verticality: Distances the player cannot cross without spawning a bridge or staircase, possibly even a door or removing a wall.
+   Aiming constraints: The lob has a fixed angle/speed and only fires in the facing direction; the player must stand in the right spot and face correctly.
+   Targets & timing: Some targets are small, moving, guarded by hazards, or possibly require ricochet physics to reach; could add the difficulty that missed shots waste time/positioning and can soft-lock routes.
+   Environmental hazards: Pits, spikes, and falling if a platform isn’t spawned where/when needed.
+3. Most important: Firing the fixed-trajectory lob to trigger environment changes (e.g., spawn a bridge platform).
+   Most common: Micro-movement (walk/jump) to line up the lob, then firing.
+
+4. When a projectile collides with designated targets:
+
+   Spawn Bridge: Instantiate a solid platform at a predefined spawn point (one-time).
+   Timed Platform: Spawn a platform that fades after a predefined amount of time.
+   Multi-Spawn Chain: Trigger multiple spawn points sequentially (staircase) that could require just one target or multiple.
+   Removal of wall/door opening or sliding: Have a barrier that can be moved or despawned to allow player to pass through an area.
+   No Effect: Misses or hits on non-targets do nothing; projectile despawns on solid geometry.
+
+5. “Line up the perfect lob.” The satisfaction of inching forward, flipping to face right, and nailing a precise arc that pings a small target to spawn a bridge to cross.
+   “Chain reaction traversal.” Hitting a target that spawns a platform, jumping onto it, then firing again mid-sequence to spawn the next step — kind of like creating your own route under pressure.
+   “Clutch recovery.” Missing the first shot, quickly shuffling position, and salvaging the attempt with a second lob before falling—skill expression through movement + timing. Also maybe making a target just out of regular distance for a sort of "leap-of-faith" scenario.
+
+6. Visual perspective: 2D side view, fixed camera. UI: minimal— maybe add an ammo count of some sort, and a subtle indicator near the player’s FirePoint.
+
+7. Gapcaster is a minimalist 2D puzzle-platformer where you change your environment with projectiles to complete levels. You can’t freely aim a cursor or place blocks; instead, you fire a fixed-angle lob in the direction you’re facing. Hitting targets in the world spawns platforms — bridges, steps, and temporary ledges— or despawns platforms -doors, walls- transforming impossible paths into routes you engineered yourself. The core tension comes from positioning and timing: stand in the right spot, face the right way, and commit to the throw.
+
+The aesthetic is clean and readable—high-contrast platforms, distinct target glyphs, and crisp hit feedback. Each level is a quick, self-contained challenge: reach the exit by discovering the throwing geometry that unlocks the path. You win by reaching the exit; you lose by falling into hazards or failing to create a traversable route. The joy is the cause-and-effect pop when a perfect arc pings a target and the world literally changes around you.
+
+8. Arcshot
