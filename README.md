@@ -26,7 +26,7 @@ A fast-paced 2D platformer that combines precision movement with projectile-base
 
 ## 🛠️ Technologies Used
 
-- Language: Python
+- Language: C#
 - Engine/Framework: Unity
 - Other Tools: Visual Studio, Git
 
